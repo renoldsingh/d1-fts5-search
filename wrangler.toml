@@ -1,0 +1,10 @@
+# wrangler.toml
+name = "d1-fts5-search-worker"
+main = "src/index.js"
+compatibility_date = "2024-05-15"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB" # Variable name to use in your Worker
+database_name = "fts-search-db" # Name of your D1 database
+database_id = "7ae4f21d-588e-4dee-a8ba-abfbfe6b1453" 
